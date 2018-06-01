@@ -5,7 +5,7 @@ TABGAME.Game.prototype = {
 		this.add.sprite(0, 0, 'panel');
 		this.physics.startSystem(Phaser.Physics.ARCADE);
 		this.fontSmall = { font: "16px Arial", fill: "#e4beef" };
-		this.fontBig = { font: "24px Arial", fill: "#e4beef" };
+		this.fontBig = { font: "16px Arial", fill: "#e4beef" };
 		this.fontMessage = { font: "24px Arial", fill: "#e4beef",  align: "center", stroke: "#320C3E", strokeThickness: 4 };
 		this.timer = 0;
 		this.totalTimer = 0;
@@ -59,7 +59,7 @@ TABGAME.Game.prototype = {
 				{ x: 21, y: 224, t: 'w' },
 				{ x: 21, y: 124, t: 'w' },
 				{ x: 21, y: 324, t: 'w' },
-				{ x: 242, y: 350, t: 'h' },
+			//	{ x: 242, y: 350, t: 'h' },
 				{ x: 146, y: 324, t: 'p' }
 			],
 			[

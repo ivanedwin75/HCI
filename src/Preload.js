@@ -20,9 +20,10 @@ TABGAME.Preload.prototype = {
 		this.load.image('border-vertical', 'img/border-vertical.png');
 
 		this.load.spritesheet('button-start', 'img/button-start.png', 146, 51);
+		this.load.spritesheet('button-menu', 'img/button-menu.png');
 
 	},
 	create: function() {
 		this.game.state.start('MainMenu');
-	}
+	},
 };
